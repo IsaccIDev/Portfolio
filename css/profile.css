@@ -228,7 +228,7 @@ display: flex; width: 100%; align-items: center ;justify-content:space-between; 
 	background-color:  #536EBD;  color: #FFFFFF;
 }
 .card-portfolio{
-  width: 100%;height: 100%;display: flex; flex-direction: column-reverse; gap: 5px; /*border-radius: 5px;*/ justify-content: center;align-items: center; border-bottom: 2px solid #EAEDED;  
+  width: 100%;height: 100%;display: flex; flex-direction: column-reverse; gap: 5px; /*border-radius: 5px;*/ justify-content: center;align-items: center; 
 }
 .display-portfolio-img{
   width: 100%; height: 100%; 
@@ -337,7 +337,7 @@ display: flex; justify-content: center; align-items: center; margin: 10px; text-
 }
 .section-showcase-list{
 display: flex; flex-direction: column;  width: 100%; height: 100%; justify-content: center; 
-align-items: center; transition:  transform 0.90s;  overflow: hidden;border: 1px solid #6d6d6d; border-radius: 5px
+align-items: center; transition:  transform 0.90s;  overflow: hidden;border: 1px solid #d1d1d1; border-radius: 5px
 }
 
 .section-showcase-list:hover{
@@ -347,7 +347,7 @@ align-items: center; transition:  transform 0.90s;  overflow: hidden;border: 1px
   display: flex; justify-content: center; align-content: center; width: 100%; height: 100%; gap: 10px;
 }
 .list-of-tech-used-icon{
-  width: 60px; height: 60px; display: block;
+  width: 50px; height: 50px; display: block;
 }
 
  @media (min-width:850px) {
@@ -417,9 +417,9 @@ align-items: center; transition:  transform 0.90s;  overflow: hidden;border: 1px
  }
  
  .icon-tech2{
-  width: 50%; height: 50%; object-fit: cover; 
+  width: 100%; height: 100%; 
  }
  .icons{
-  width: 100%; height: 100%; grid-template-columns: repeat(4,1fr);gap: 10px; justify-content: center;align-items: center;
+  width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: row;
  }
 } 
